@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class HouseEnterController : MonoBehaviour
 {
-    public string House; // The name of the scene to load when the player touches the door
+    private string sceneName = "House";
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("31");
+        SceneManager.LoadScene(sceneName);
     }
 }
