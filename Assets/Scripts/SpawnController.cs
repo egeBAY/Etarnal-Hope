@@ -51,7 +51,7 @@ public class SpawnController : MonoBehaviour
 
     private void Update()
     {
-        if (canEnter && Input.GetKey(KeyCode.Return))
+        if (canEnter && Input.GetKey(KeyCode.E))
         {
             SceneManager.LoadScene(sceneToLoad);
             DontDestroyOnLoad(gameObject);
