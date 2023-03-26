@@ -5,5 +5,5 @@ using UnityEngine.SceneManagement;
 
 public class HouseEnterController : MonoBehaviour
 {
-
+    public GameObject dialogBox;
 }

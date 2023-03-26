@@ -14,18 +14,34 @@ public class SpawnController : MonoBehaviour
     private Scene currentScene;
     private Scene targetScene;
 
+    private ItemManager itemManager;
+    private GameObject dialogBox;
+
     private void Start()
     {
         currentScene = SceneManager.GetActiveScene();
+        itemManager = this.GetComponent<ItemManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.GetComponent<HouseEnterController>())
         {
             sceneToLoad = "House";
             targetScene = SceneManager.GetSceneByName(sceneToLoad);
-            canEnter = true;
+            dialogBox = collision.gameObject.GetComponent<HouseEnterController>().dialogBox;
+            if (itemManager.hasShovel)
+            {
+                canEnter = true;
+            }
+            else 
+            {
+                Debug.Log("U need shovel");
+                dialogBox.SetActive(true);
+                canEnter = false;
+            }
+            
         }
         else if (collision.GetComponent<House2EnterController>())
         {
@@ -55,10 +71,13 @@ public class SpawnController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.GetComponent<HouseEnterController>() || collision.GetComponent<BarnEnterController>())
+        if (collision.GetComponent<HouseEnterController>() || collision.GetComponent<House2EnterController>())
         {
-            canEnter = false; 
+            canEnter = false;
+            dialogBox.SetActive(false);
         }
+
+        
     }
 
     private void Update()
