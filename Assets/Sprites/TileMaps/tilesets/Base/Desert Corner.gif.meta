@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -296,13 +308,13 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Desert Corner_0: -1509740397
-      Desert Corner_7: 482586142
+      Desert Corner_1: 952934728
+      Desert Corner_2: -256443485
+      Desert Corner_3: 383053050
+      Desert Corner_4: 1137256978
       Desert Corner_5: 741393183
       Desert Corner_6: 1685117457
-      Desert Corner_3: 383053050
-      Desert Corner_1: 952934728
-      Desert Corner_4: 1137256978
-      Desert Corner_2: -256443485
+      Desert Corner_7: 482586142
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

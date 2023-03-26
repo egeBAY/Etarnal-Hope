@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -359,16 +371,16 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Snow Horizontal_0: 949260724
-      Snow Horizontal_7: 988124672
-      Snow Horizontal_6: 2108071251
-      Snow Horizontal_3: 930001383
+      Snow Horizontal_1: -1696812108
       Snow Horizontal_10: -592823447
+      Snow Horizontal_2: -1614603109
+      Snow Horizontal_3: 930001383
+      Snow Horizontal_4: 697707812
       Snow Horizontal_5: -182025138
+      Snow Horizontal_6: 2108071251
+      Snow Horizontal_7: 988124672
       Snow Horizontal_8: 140294694
       Snow Horizontal_9: -639137051
-      Snow Horizontal_1: -1696812108
-      Snow Horizontal_4: 697707812
-      Snow Horizontal_2: -1614603109
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

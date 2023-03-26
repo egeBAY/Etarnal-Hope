@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -337,16 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Ice Water_0: -1091367538
+      Ice Water_1: 2023050871
+      Ice Water_2: 988363496
+      Ice Water_3: -1521984206
       Ice Water_4: 1057587286
+      Ice Water_5: 1597894424
+      Ice Water_6: 814414527
+      Ice Water_7: 1752218986
       Ice Water_8: -919138106
       Ice Water_9: -1999091004
-      Ice Water_6: 814414527
-      Ice Water_1: 2023050871
-      Ice Water_7: 1752218986
-      Ice Water_3: -1521984206
-      Ice Water_2: 988363496
-      Ice Water_0: -1091367538
-      Ice Water_5: 1597894424
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -295,14 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Grass Corner_5: -1595393603
       Grass Corner_0: -1614485828
-      Grass Corner_6: 1194611666
       Grass Corner_1: -372797928
-      Grass Corner_3: -2044611272
       Grass Corner_2: 1936822343
-      Grass Corner_7: 1861780169
+      Grass Corner_3: -2044611272
       Grass Corner_4: 1461466872
+      Grass Corner_5: -1595393603
+      Grass Corner_6: 1194611666
+      Grass Corner_7: 1861780169
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

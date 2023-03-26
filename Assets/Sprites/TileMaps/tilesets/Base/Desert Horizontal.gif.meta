@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -358,17 +370,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Desert Horizontal_0: 213403191
+      Desert Horizontal_1: 1372771757
+      Desert Horizontal_10: -1330858612
+      Desert Horizontal_2: 1406581619
       Desert Horizontal_3: -376490647
       Desert Horizontal_4: 342123316
-      Desert Horizontal_10: -1330858612
-      Desert Horizontal_9: 315228165
-      Desert Horizontal_1: 1372771757
-      Desert Horizontal_8: -1101334483
       Desert Horizontal_5: -504602905
-      Desert Horizontal_7: 1471889501
-      Desert Horizontal_0: 213403191
       Desert Horizontal_6: 1858894719
-      Desert Horizontal_2: 1406581619
+      Desert Horizontal_7: 1471889501
+      Desert Horizontal_8: -1101334483
+      Desert Horizontal_9: 315228165
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

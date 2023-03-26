@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -358,17 +370,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Desert Verticle_8: -1344441817
-      Desert Verticle_6: -1630114440
       Desert Verticle_0: -1995390891
-      Desert Verticle_5: -437883349
-      Desert Verticle_9: -1952423358
-      Desert Verticle_3: 1114387425
-      Desert Verticle_4: -1658665485
-      Desert Verticle_7: 2061915558
+      Desert Verticle_1: -1749106824
       Desert Verticle_10: 1121669771
       Desert Verticle_2: 251316324
-      Desert Verticle_1: -1749106824
+      Desert Verticle_3: 1114387425
+      Desert Verticle_4: -1658665485
+      Desert Verticle_5: -437883349
+      Desert Verticle_6: -1630114440
+      Desert Verticle_7: 2061915558
+      Desert Verticle_8: -1344441817
+      Desert Verticle_9: -1952423358
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

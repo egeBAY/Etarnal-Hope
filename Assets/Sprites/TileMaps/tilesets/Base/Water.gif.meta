@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -337,16 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Water_7: -970077048
-      Water_2: -1249145720
-      Water_4: -2062380501
-      Water_9: 1468885225
+      Water_0: -290390717
       Water_1: -1680427950
+      Water_2: -1249145720
+      Water_3: -1382971654
+      Water_4: -2062380501
       Water_5: -694852906
       Water_6: 2135555818
-      Water_0: -290390717
+      Water_7: -970077048
       Water_8: -278654474
-      Water_3: -1382971654
+      Water_9: 1468885225
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

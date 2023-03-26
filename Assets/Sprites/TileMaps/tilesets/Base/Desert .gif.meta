@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -338,14 +350,14 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Desert _0: -2003031978
-      Desert _3: -139785215
       Desert _1: -349494513
-      Desert _5: 2073895850
-      Desert _8: -355227566
-      Desert _7: -1761230572
-      Desert _4: -1309864340
       Desert _2: -1340224879
+      Desert _3: -139785215
+      Desert _4: -1309864340
+      Desert _5: 2073895850
       Desert _6: 1422904944
+      Desert _7: -1761230572
+      Desert _8: -355227566
       Desert _9: 117836863
   spritePackingTag: 
   pSDRemoveMatte: 0
