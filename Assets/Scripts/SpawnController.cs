@@ -27,9 +27,21 @@ public class SpawnController : MonoBehaviour
             targetScene = SceneManager.GetSceneByName(sceneToLoad);
             canEnter = true;
         }
-        else if (collision.GetComponent<BarnEnterController>())
+        else if (collision.GetComponent<House2EnterController>())
         {
-            sceneToLoad = "Barn";
+            sceneToLoad = "House2";
+            targetScene = SceneManager.GetSceneByName(sceneToLoad);
+            canEnter = true;
+        }
+        else if (collision.GetComponent<House3EnterController>())
+        {
+            sceneToLoad = "House3";
+            targetScene = SceneManager.GetSceneByName(sceneToLoad);
+            canEnter = true;
+        }
+        else if (collision.GetComponent<House4EnterController>())
+        {
+            sceneToLoad = "House4";
             targetScene = SceneManager.GetSceneByName(sceneToLoad);
             canEnter = true;
         }
